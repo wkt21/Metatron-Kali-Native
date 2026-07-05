@@ -38,36 +38,6 @@ Features
 • Kali‑native tool integration (Nmap, WhatWeb, WAFW00F, Nuclei, etc.)
 
 
----
-
-Repository Structure
-
-wkt12/
-│
-├── core/
-│   ├── cli.py              # Main CLI interface
-│   ├── session.py          # Session object
-│   ├── analysis.py         # AI analysis engine
-│   ├── database.py         # (Optional) DB persistence layer
-│   └── loader.py           # Plugin auto-loader
-│
-├── plugins/
-│   ├── __init__.py
-│   ├── nmap.py             # Nmap plugin
-│   ├── whatweb.py          # WhatWeb plugin
-│   ├── wafw00f.py          # WAFW00F plugin
-│   └── nuclei.py           # Nuclei plugin
-│
-├── export/
-│   └── exporter.py         # Export utilities (JSON, Markdown, etc.)
-│
-├── utils/
-│   ├── banner.py           # ASCII banner
-│   ├── colors.py           # Color helpers
-│   └── helpers.py          # Prompt + logging helpers
-│
-└── main.py                 # Entry point
-
 
 ---
 
@@ -87,8 +57,8 @@ Python 3.8+ is required.
 
 Clone the repository
 
-git clone https://github.com/yourname/wkt12.git
-cd wkt12
+git clone https://github.com/wkt21/wkt21.git
+cd wkt21
 
 
 Run the framework
